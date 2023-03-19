@@ -1,0 +1,1552 @@
+  @import url('https://fonts.googleapis.com/css2?family=Laila:wght@600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,400;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,400;1,600;1,700;1,900&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgba(211, 211, 211, 0.295);
+}
+
+
+            /* START LAYER - 1 */
+
+
+            .headline{
+                background: rgb(22, 24, 155);
+                position: fixed;
+                top: 0;
+                z-index: 10;
+                overflow: hidden;
+                height: 9vh;
+                width: 100%;
+            }
+            
+            .headline .flex-direction{
+                display: flex;
+                padding: 4px 10px 4px 30px;
+            }
+            
+            .headline .flex-direction .box-1{
+                width: 12vw;
+                margin-right: 20px;
+                position: fixed;
+                top: 0;
+                margin: 5px;
+                
+            }
+            
+            .headline .flex-direction .box-2{
+                width: 46vw;
+                margin-top: 5px;
+                margin-left: 15vw;
+            }
+            
+            
+            .headline .flex-direction .box-2 #two{
+                color: white;
+                background: rgb(4, 192, 161);
+                padding:8px 12px;
+                margin-right: 10px;
+                border-radius: 0 4px 4px 0;
+                cursor: pointer;
+            }
+            
+            .headline .flex-direction .box-2 #two:hover{
+                background: rgb(3, 155, 130);
+
+            }
+            
+            .headline .flex-direction .box-2 #three{
+                color: rgb(6, 6, 199);
+                font-weight: 600;
+                padding: 8px 16px;
+                border-radius: 4px;
+                background: white;
+                cursor: pointer;
+            }
+            
+            .headline .flex-direction .box-3{
+                width: auto;
+                font-size: 14px;
+                margin-left: 50px;
+                margin-top: 5px;
+            }
+            
+            .headline .flex-direction .box-3 li{
+                color: white;
+                float: left;
+                margin: 10px 15px;
+                cursor: pointer;
+            }
+
+            /* END LAYER - 1 */
+
+
+            /* START LAYER - 2 */
+
+.layer-2{
+    height: 46vh;
+    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.582)), url(https://media.noria.com/sites/Uploads/2019/9/25/2e3f1101-1f92-42aa-9081-c957fbf7bbff_ArticleImages_RP31449_1234x694_07092019_extra_large.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+            /* END LAYER - 2 */
+
+
+            /* START LAYER - 3 */
+
+.layer-3{
+    height: 9vh;
+    width: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding: 0 36px;
+    overflow: hidden;
+}
+
+.layer-3 div{
+    background: white;
+    justify-content: space-between;
+    padding: 10px 2px;
+    display: flex;
+}
+
+.layer-3 div h3{
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.layer-3 div h3:hover{
+    font-weight: 600;
+}
+
+.layer-3 div i{
+    font-size: 30px;
+    padding: 5px 10px;
+    color:rgba(9, 140, 201, 0.836);
+}
+
+.layer-3 div:hover{
+    background: rgba(211, 211, 211, 0.295);
+    cursor: pointer;
+}
+
+            /* END LAYER - 3 */
+
+
+            /* START LAYER - 4 */
+
+.layer-4{
+    height: auto;
+    width: auto;
+    background: rgb(255, 255, 255);
+    margin-top: 3px;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.layer-4 .first-box{
+    background-color: white;
+    width: 33%;
+    height: 61vh;
+    padding-left: 2vw;
+}
+
+
+.layer-4 h1{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 12vh 0px 0 0;
+    color: rgba(0, 0, 0, 0.856);
+    letter-spacing: -1px;
+}
+
+.layer-4 span{
+    font-weight: 600;
+}
+
+.layer-4 p{
+    margin: 20px 10px 0 0;
+
+}
+
+.layer-4 .flex-container{
+    display: flex;
+}
+
+.layer-4 .flex-container div{
+    margin: 10px 5px 0 0 ;
+    padding: 10px;
+}
+
+.layer-4 .flex-container div i{
+    padding: 0 38% 16px 38%;
+    font-size: 30px;
+    color: rgba(11, 115, 250, 0.548);
+}
+
+.layer-4 .second-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.layer-4 .second-box img{
+    margin: 26px 20px;
+}
+
+.layer-4 .second-box .overlay{
+    position: absolute;
+    top: 15vh;
+    right: 10px;
+    width: 45%;
+    height: 38vh;
+}
+
+.layer-4 .second-box .overlay
+    input[type=text], select {
+        width: 95%;
+        padding: 6px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      .layer-4 .second-box .overlay span{
+        background-color: lightgray;
+        padding: 6px 13px;
+        color: rgba(0, 0, 0, 0.397);
+        border: 0.1px solid rgba(0, 0, 0, 0.048);
+        border-radius: 4px;
+      }
+
+.layer-4 .second-box .overlay
+      input[id="number"]{
+        width: 81.5%;
+        margin-left: 0;
+      } 
+
+      .layer-4 .second-box .overlay
+    input[id="name"]{
+        width: 50%;
+    }
+      
+      .layer-4 .second-box .overlay input[type=submit] {
+        width: 60%;
+        background-color: #0195afd2;
+        color: white;
+        padding: 8px 12px;
+        margin: 8px 20%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      .layer-4 .second-box .overlay input[type=submit]:hover {
+        background-color: #087285;
+      }
+
+
+                  /* END LAYER - 4 */
+
+
+
+                  /* START LAYER - 5 */
+
+.layer-5{
+    height: 90vh;
+    width: auto;
+    background: rgba(255, 255, 255, 0.993);
+    margin: 20px 30px 8px 30px;
+    border-top: 4px solid blue;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.layer-5 h1{
+    margin: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.layer-5 h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(7, 7, 141);
+}
+
+.layer-5 .aside{
+    width: 23vw;
+    height: 76vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.219), rgba(0, 0, 0, 0.76)), url(https://wallpapercave.com/wp/wp1842342.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin: 0 20px;
+     float: left;
+     overflow: hidden;
+}
+
+.layer-5 .aside p{
+    color: white;
+    line-height: 28px;
+    margin: 43vh 0 0 20px;
+    cursor: pointer;
+}
+
+.layer-5 .aside p:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.layer-5 .aside button{
+    width: 33%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border-radius: 4px;
+    margin: 5vh 0 0 3vw;
+    background: rgb(4, 126, 207);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.layer-5 .aside button:hover{
+    background-color: rgba(3, 44, 158, 0.733);
+    text-decoration: underline;
+}
+
+.layer-5 .grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 20px;
+    margin: 10px;
+  }
+  
+.layer-5  .grid-container > .div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    width: 100%;
+}
+
+.layer-5  .grid-container .box-1 img{
+    float: left;
+    margin: 20px 10px 35px 10px;
+}
+
+.layer-5  .grid-container .box-1 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-1 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.layer-5  .grid-container .box-2 img{
+    float: left;
+    margin: 20px 10px 35px 10px;
+}
+
+.layer-5  .grid-container .box-2 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-2 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-5  .grid-container .box-3 img{
+    float: left;
+    margin: 20px 10px 35px 10px;
+}
+
+.layer-5  .grid-container .box-3 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-3 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-5  .grid-container .box-4 img{
+    float: left;
+    margin: 20px;
+}
+
+.layer-5  .grid-container .box-4 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-4 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-5  .grid-container .box-5 img{
+    float: left;
+    margin: 20px;
+}
+
+.layer-5  .grid-container .box-5 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-5 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-5  .grid-container .box-6 img{
+    float: left;
+    margin: 20px 10px;
+}
+
+.layer-5  .grid-container .box-6 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-6 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-5  .grid-container .box-7 img{
+    float: left;
+    margin: 5px 15px;
+}
+
+.layer-5  .grid-container .box-7 h4{
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-7 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-5  .grid-container .box-8 img{
+    float: left;
+    margin: 5px 15px;
+}
+
+.layer-5  .grid-container .box-8 h4{
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-8 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-5  .grid-container .box-9 img{
+    float: left;
+    margin: 5px 15px;
+}
+
+.layer-5  .grid-container .box-9 h4{
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.layer-5  .grid-container .box-9 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.layer-5 h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(7, 7, 141);
+}
+
+.layer-5 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(7, 7, 141);
+}
+
+            /* END LAYER - 5 */
+
+
+            /* START LAYER - 6 */
+
+.layer-6{
+    height: 20vh;
+    width: 70%;
+    margin: 15px auto;
+    display: block;
+
+}
+
+.layer-6 img{
+    margin-top: 5px;
+}
+            /* END LAYER - 6 */
+
+
+            /* START LAYER - 7 */
+
+.layer-7{
+    height: 90vh;
+    width: auto;
+    background: rgb(255, 255, 255);
+    margin: 5px 30px 20px 30px;
+    border-top: 4px solid blue;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.layer-7 h1{
+    margin: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.layer-7 h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(7, 7, 141);
+}
+
+.layer-7 .aside-2{
+    width: 23vw;
+    height: 76vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.219), rgba(0, 0, 0, 0.76)), url(https://tse1.mm.bing.net/th?id=OIP.UNMYiM7PLyG7YHgFTAKHBgHaFM&pid=Api);
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin: 0 20px;
+     float: left;
+     overflow: hidden;
+}
+
+.layer-7 .aside-2 p{
+    color: white;
+    line-height: 28px;
+    margin: 43vh 0 0 20px;
+}
+
+.layer-7 .aside-2 p:hover{
+    text-decoration: underline;
+}
+
+.layer-7 .aside-2 button{
+    width: 33%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 153, 255, 0.925);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+    margin: 5vh 0 0 3vw;
+    cursor: pointer;
+}
+
+.layer-7 .aside-2 button:hover{
+    background-color: rgba(8, 58, 196, 0.568);
+    text-decoration: underline;
+}
+
+
+.layer-7 .grid-container-1 {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 20px;
+    margin: 10px;
+    height: 76vh;
+  }
+  
+.layer-7  .grid-container-1 > .div-2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    width: 100%;
+}
+
+.layer-7  .grid-container-1 .box-1 img{
+    float: left;
+    margin: 20px 10px 35px 10px;
+}
+
+.layer-7  .grid-container-1 .box-1 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 h4:hover{
+    text-decoration: underline;
+    color: rgb(9, 9, 209);
+}
+
+.layer-7  .grid-container-1 p:hover{
+    text-decoration: underline;
+    color: rgb(9, 9, 209);
+}
+
+.layer-7  .grid-container-1 .box-1 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.layer-7  .grid-container-1 .box-2 img{
+    float: left;
+    padding: 60px 10px;
+}
+
+.layer-7  .grid-container-1 .box-2 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-2 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-7  .grid-container-1 .box-3 img{
+    float: left;
+    margin: 20px 10px 35px 10px;
+}
+
+.layer-7  .grid-container-1 .box-3 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-3 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-7  .grid-container-1 .box-4 img{
+    float: left;
+    margin: 20px 5px 20px 10px;
+}
+
+.layer-7  .grid-container-1 .box-4 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-4 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-7  .grid-container-1 .box-5 img{
+    float: left;
+    margin: 20px;
+}
+
+.layer-7  .grid-container-1 .box-5 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-5 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-7  .grid-container-1 .box-6 img{
+    float: left;
+    margin: 20px 10px;
+}
+
+.layer-7  .grid-container-1 .box-6 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-6 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-7  .grid-container-1 .box-7 img{
+    float: left;
+    margin: 5px 15px;
+}
+
+.layer-7  .grid-container-1 .box-7 h4{
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-7 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-7  .grid-container-1 .box-8 img{
+    float: left;
+    margin: 5px 15px;
+}
+
+.layer-7  .grid-container-1 .box-8 h4{
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-8 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-7  .grid-container-1 .box-9 img{
+    float: left;
+    margin: 5px 15px;
+}
+
+.layer-7  .grid-container-1 .box-9 h4{
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.layer-7  .grid-container-1 .box-9 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+
+                    /* START LAYER - 8 */
+
+
+.layer-8{
+    height: 82vh;
+    width: auto;
+    background: rgba(255, 255, 255, 0.993);
+    margin: 20px 30px;
+    border-top: 4px solid blue;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.layer-8 h1{
+    margin: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.layer-8 h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(7, 7, 141);
+}
+
+.layer-8 .aside-3{
+    width: 23vw;
+    height: 67vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.219), rgba(0, 0, 0, 0.76)), url(https://tse1.mm.bing.net/th?id=OIP.EMaX18SZ1OGgtCTMgcILwwHaEL&pid=Api);
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin: 0 20px;
+     float: left;
+}
+
+.layer-8 .aside-3 p{
+    color: white;
+    line-height: 28px;
+    margin: 36vh 0 0 20px;
+}
+
+.layer-8 .aside-3 p:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.layer-8 .aside-3 button{
+    width: 33%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 153, 255, 0.925);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+    margin: 5vh 0 0 3vw;
+    cursor: pointer;
+}
+
+.layer-8 .aside-3 button:hover{
+    background-color: rgba(6, 43, 145, 0.849);
+    text-decoration: underline;
+}
+
+
+.layer-8 .grid-container-2 {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 20px;
+    margin: 10px;
+    height: 67vh;
+  }
+
+.layer-8 .grid-container-2 h4{
+    font-size: 15px;
+}
+
+  
+.layer-8  .grid-container-2 > .div-3 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    width: 100%;
+    height: auto;
+}
+
+.layer-8 .grid-container-2 .box-1{
+    width: 335px;
+    height: 215px;
+}
+
+.layer-8  .grid-container-2 .box-1 img{
+    float: left;
+    margin: 40px 15px 40px 15px;
+}
+
+.layer-8  .grid-container-2 .box-1 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-8  .grid-container-2 .box-1 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-8 .grid-container-2 .box-2{
+    width: 335px;
+    height: 215px;
+}
+
+.layer-8  .grid-container-2 .box-2 img{
+    float: left;
+    margin: 20px 15px 35px 15px;
+}
+
+.layer-8  .grid-container-2 .box-2 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-8  .grid-container-2 .box-2 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.layer-8  .grid-container-2 .box-3{
+    width: 330px;
+    height: 215px;
+}
+
+
+.layer-8  .grid-container-2 .box-3 img{
+    float: left;
+    margin: 20px 0px 35px 0px;
+}
+
+.layer-8  .grid-container-2 .box-3 h4{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-8  .grid-container-2 .box-3 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.layer-8  .grid-container-2 .box-4{
+    width: 335px;
+    height: 230px;
+}
+
+.layer-8  .grid-container-2 .box-4 img{
+    float: left;
+    margin: 30px 12px 20px 10px;
+}
+
+.layer-8  .grid-container-2 .box-4 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-8  .grid-container-2 .box-4 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.layer-8  .grid-container-2 .box-5{
+    width: 335px;
+    height: 230px;
+}
+
+.layer-8  .grid-container-2 .box-5 img{
+    float: left;
+    margin: 20px 10px;
+}
+
+.layer-8  .grid-container-2 .box-5 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-8  .grid-container-2 .box-5 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.layer-8 .grid-container-2 .box-6{
+    width: 330px;
+    height: 230px;
+}
+
+.layer-8  .grid-container-2 .box-6 img{
+    float: left;
+    margin: 50px 10px 30px 10px;
+}
+
+.layer-8  .grid-container-2 .box-6 h4{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.layer-8  .grid-container-2 .box-6 p{
+    line-height: 16px;
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+
+.layer-8 h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(7, 7, 141);
+}
+
+.layer-8 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(7, 7, 141);
+}
+
+                     /* END LAYER - 8 */
+
+
+
+  /* START LAYER -15 */ 
+  
+.layer-15{
+    height: 58vh;
+    width: auto;
+    background: rgb(255, 255, 255);
+    margin: 20px 30px;
+    overflow: hidden;
+}
+
+.layer-15 h2{
+    padding:10px 0 4px 20px;
+    font-weight: 600;
+    font-size: 28px;
+}
+  
+.layer-15 .container-15{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    margin: 10px 30px;
+}
+
+.layer-15 .container-15 > div{
+    background-color: white;
+    width: auto;
+    height: 145px;
+}
+
+.layer-15 .container-15 img{
+    margin-left: 70px ;
+}
+
+
+
+  /* END LAYER -15 */ 
+  
+  
+
+
+  /* START LAYER - 20 */  
+  
+  .layer-20{
+    height: 58vh;
+    width: auto;
+    background: rgb(255, 255, 255);
+    margin: 20px 30px;
+    overflow: hidden;
+}
+
+.layer-20 h2{
+    padding:10px 0 4px 20px;
+    font-weight: 600;
+    font-size: 28px;
+}
+  
+.layer-20 .container-brand{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+    margin: 10px 30px;
+}
+
+.layer-20 .container-brand > div{
+    width: auto;
+    height: 145px;
+    margin: 10px 20px;
+}
+
+
+
+
+  /* END LAYER - 20 */                     
+
+
+
+  /* START LAYER - 21 */  
+  
+  .layer-21{
+    height: auto;
+    width: auto;
+    background: rgb(255, 255, 255);
+    margin: 20px 30px;
+    padding-bottom: 15px;
+}
+
+.layer-21 h2{
+    padding:10px 0 8px 20px;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.layer-21 .container-categorie{
+    margin: 0 14px;
+    display: flex;
+}
+
+.layer-21 .container-categorie .categories{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin:0 8px;
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.226);
+}
+
+.layer-21 .container-categorie .categories img{
+    margin: 10px auto;
+    display: block;
+
+}
+
+.layer-21 .container-categorie .categories h3{
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.layer-21 .container-categorie .categories button{
+    text-align: center;
+    margin: 26px auto 5px auto;
+    display: block;
+    padding: 10px 38px;
+    border-radius: 50px;
+    background: rgb(5, 128, 122);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.layer-21 .container-categorie .categories button:hover{
+    background: rgba(5, 194, 184, 0.74);
+
+}
+
+  /* END LAYER - 21 */ 
+
+
+
+  /* START LAYER - 22 */  
+  
+  .layer-22{
+    height: auto;
+    width: auto;
+    background: rgb(255, 255, 255);
+    margin: 20px 30px;
+    padding-bottom: 15px;
+}
+
+.layer-22 h2{
+    padding:10px 0 8px 20px;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.layer-22 .container-recom{
+    margin: 0 14px;
+    display: flex;
+}
+
+.layer-22 .container-recom .logo{
+    width: 100%;
+    height: auto;
+    margin:0 8px;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.226);
+}
+
+.layer-22 .container-recom .logo img{
+    margin: 10px auto;
+    display: block;
+}
+
+.layer-22 .container-recom .logo h3{
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8.5vh;
+}
+
+.layer-22 .container-recom .logo button{
+    text-align: center;
+    margin: 20px auto 5px auto;
+    display: block;
+    padding: 10px 38px;
+    border-radius: 50px;
+    background: rgb(5, 128, 122);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.layer-22 .container-recom .logo p{
+    text-align: center;
+}
+
+.layer-22 .container-recom .logo button:hover{
+        background: rgba(5, 194, 184, 0.74);
+}
+
+
+  /* END LAYER - 22 */ 
+
+
+
+  /* START LAYER - 23 */
+
+  
+  .layer-23{
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    margin: 20px 30px;
+    padding: 10px;
+  }
+
+  .layer-23 .container-payment{
+    display: flex;
+    margin: 0 15px 0px 15px;
+  }
+
+  .layer-23 .container-payment div{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    border-right: 2px solid rgba(5, 5, 5, 0.205);
+    padding: 8px;
+  }
+
+  .layer-23 .container-payment div:last-child{
+    border: none;
+  }
+  
+  .layer-23 h2{
+    font-weight: 600;
+    font-size: 26px;
+    margin: 0px 16px;
+  }
+
+  .layer-23 .container-payment div img{
+    margin: 10px auto;
+    display: block;
+  }
+
+  .layer-23 .container-payment div h3{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .layer-23 .container-payment div p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .layer-23 .container-payment div button{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: rgb(10, 64, 212);
+    color: rgb(10, 64, 212);
+    font-size: 16px;
+  }
+  .layer-23 .container-payment div button:hover{
+    background:  rgb(10, 64, 212);
+    color: white;
+  }
+
+  /* END LAYER - 23 */
+
+
+
+  /* START LAYER - 24 */
+
+  .layer-24{
+    height: auto;
+    width: auto;
+    margin: 20px 30px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+  }
+
+  .layer-24 .tips{
+    float: left;
+    margin-right: 15vw;
+  }
+
+  .layer-24 .tips img{
+    margin: 46px 0 16px 40px;
+  }
+
+  .layer-24 .tips h1{
+    font-size: 32px;
+    margin-left: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.774);
+  }
+
+  .layer-24 .tips p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.911);
+  }
+
+  .layer-24 .tips ul{
+    margin-left: 3.5vw;
+    margin-top: 35px;
+  }
+
+  .layer-24 .tips ul li i{
+    color: rgb(5, 81, 151);
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .layer-24 .tips ul li{
+    font-size: 18px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.651);
+    cursor: pointer;
+  }
+
+  .layer-24 .tips ul li:hover{
+    color: black;
+  }
+  /* END LAYER - 24 */
+
+
+
+  /* START LAYER - 25 */
+
+.layer-25{
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    margin: 20px 30px;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.layer-25 .img{
+    float: left;
+}
+
+.layer-25 .img img{
+    margin: 60px 6vw 10px 7vw;
+}
+
+.layer-25 .app{
+    margin-top: 17vh;
+}
+
+.layer-25 .app h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.layer-25 .app button{
+    padding: 9px 20px 6.5px 20px;
+    border: none;
+    background: #08a0bb;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.layer-25 .app button:hover{
+    background: #0ac6e7;
+
+}
+  /* END LAYER - 25 */
+
+/*  START FOOTER   */
+
+.footer-x{
+    background-color: rgba(211, 211, 211, 0);
+    display: flex;
+    padding: 6px 0 6px 10vw;
+    border-top: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+.footer-x h1{
+    font-weight: 400;
+    color: rgb(5, 5, 126);
+}
+
+.footer-x ul{
+    display: flex;
+    margin: auto 0 auto 30vw;
+}
+
+.footer-x ul li{
+    margin:0 10px;
+}
+
+.footer-x ul li i{
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.89);
+    cursor: pointer;
+}
+
+.footer-x ul li i:hover{
+    opacity: 0.5;
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.904);
+    display: flex;
+    padding: 0 0 0 7vw;
+    height: 25vh;
+}
+
+.footer .row{
+    padding:8px 50px 8px 10px;
+    margin: 10px;
+}
+
+.footer .row a:hover{
+    color: rgba(7, 7, 133, 0.842);
+}
+
+.footer .row a{
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer .row h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.884);
+    cursor: pointer;
+}
+
+.footer .row h2:hover{
+    color: rgba(7, 7, 133, 0.842);
+}
+
+footer{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-top: 2px solid rgba(0, 0, 0, 0.116);
+    padding: 5px 10px;
+}
+
+footer p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.685);
+    margin-left: 9.2vw;
+    font-weight: 500;
+}
+
+footer ul li{
+    display: inline;
+}
+
+footer ul{
+    margin-left: 20vw;
+}
+
+footer a{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.685);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: rgba(10, 10, 170, 0.89);
+    font-weight: 600;
+}
+
+
+
+                    /*  END FOOTER   */
